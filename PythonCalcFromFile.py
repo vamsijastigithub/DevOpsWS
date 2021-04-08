@@ -30,6 +30,8 @@ while file_line_read < file_line_count:
         calc_line_value = first_num/second_num
     elif operator == '%':
         calc_line_value = first_num%second_num
+    elif operator == '^':
+        calcvalue = pow(firstnum,secondnum) 
     calc_value = calc_value + calc_line_value
     file_line_read = file_line_read + 1
 print("Calcualted Value from file = " + str(calc_value))
