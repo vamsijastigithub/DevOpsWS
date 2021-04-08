@@ -12,4 +12,6 @@ elif operator == '/':
     calcvalue = firstnum/secondnum
 elif operator == '%':
     calcvalue = firstnum%secondnum
+elif operator == '^':
+    calcvalue = pow(firstnum,secondnum) 
 print("Calcualted Value = " + str(calcvalue))
